@@ -26,7 +26,8 @@ class User extends Model implements JWTSubject
         'name',
         'email',
         'password',
-        'role'
+        'role',
+        'mobile'
     ];
 
     /**
